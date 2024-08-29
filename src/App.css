@@ -1,0 +1,66 @@
+/* App.css */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px; /* 최대 너비 설정 */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: calc(100vh - 60px);
+  overflow: auto;
+}
+
+button {
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

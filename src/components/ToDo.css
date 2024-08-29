@@ -1,0 +1,35 @@
+/* ToDo.css */
+li {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+li a:hover {
+  color: #0056b3;
+}
+
+li button {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+li button:hover {
+  background-color: #c82333;
+}
